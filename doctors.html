@@ -3,45 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PulsePro</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./media/favicon-32x32.png" type="image/x-icon">
+    <title>Doctor Appointment Booking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="header">
-        <div class="head-left">
-            <div class="logo"><img src="./media/favicon-32x32.png" alt="logo"></div>
-            <div class="name">PulsePRO</div>
-        </div>
-        <div class="head-right">
-            <div class="home"><a href="home.html" class="homelink">Home</a>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-center mb-8">Book Your Doctor Appointment</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Doctor Card 1 -->
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <img src="/api/placeholder/300/300" alt="Dr. Smith" class="w-full h-64 object-cover rounded-md mb-4">
+                <h2 class="text-xl font-semibold mb-2">Dr. Emily Smith</h2>
+                <p class="text-gray-600 mb-4">Cardiology Specialist</p>
+                <p class="text-sm text-gray-500 mb-4">123 Medical Center Drive, Cityville, ST 12345</p>
+                <button class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition duration-300">
+                    Book Now
+                </button>
             </div>
-            <div class="patient-history"><a href="patient-history.html" class="phlink">Patient History</a></div>
-            <div class="doctors"><a href="doctors.html" class="docslink">Doctors</a></div>
-            <div class="profile"><a href="profile.html" class="proflink"></a></div>
+
+            <!-- Doctor Card 2 -->
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <img src="/api/placeholder/300/300" alt="Dr. Johnson" class="w-full h-64 object-cover rounded-md mb-4">
+                <h2 class="text-xl font-semibold mb-2">Dr. Michael Johnson</h2>
+                <p class="text-gray-600 mb-4">Pediatrics</p>
+                <p class="text-sm text-gray-500 mb-4">456 Health Street, Townsburg, ST 67890</p>
+                <button class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition duration-300">
+                    Book Now
+                </button>
+            </div>
+
+            <!-- Doctor Card 3 -->
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <img src="/api/placeholder/300/300" alt="Dr. Rodriguez" class="w-full h-64 object-cover rounded-md mb-4">
+                <h2 class="text-xl font-semibold mb-2">Dr. Ana Rodriguez</h2>
+                <p class="text-gray-600 mb-4">Dermatology</p>
+                <p class="text-sm text-gray-500 mb-4">789 Wellness Avenue, Healthcity, ST 54321</p>
+                <button class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition duration-300">
+                    Book Now
+                </button>
+            </div>
         </div>
-    </div>
-    <div class="media">
-        <div class="doctor-patient"></div>
-        <div class="prototype"></div>
-    </div>
-    <div class="features">
-        <div class="live"></div>
-        <div class="graph"></div>
-        <div class="book"></div>
-    </div>
-    <div class="testimonials">
-        <div class="test1"></div>
-        <div class="test2"></div>
-        <div class="test3"></div>
-        <div class="test4"></div>
-    </div>
-    <div class="footer">
-        <div class="aboutus"></div>
-        <div class="faq"></div>
-        <div class="contactus"></div>
-        <div class="copywrite"></div>
-        
     </div>
 </body>
 </html>
