@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+h1 {
+    font-size: 48px;
+    color: #222;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 50px;
+}
+
+.intro {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #444;
+}
+
+/* Team Section */
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.team-member {
+    text-align: center;
+    width: 150px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member .name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.team-member .role {
+    font-size: 16px;
+    color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        margin-bottom: 30px;
+    }
+}
+.team1{
+    display: flex;
+    justify-content: center;
+    gap: 20vw;
+}
+.hrshl{
+    width: 10vw;
+}
+.team2{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    
+}
+.mem1,
+.mem2,
+.mem3,
+.mem4,
+.mem5,
+.mem6{
+    text-align: center;
+}
+.section{
+    padding-top: 10vh;
+}
