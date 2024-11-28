@@ -9,45 +9,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 35vw;
-    padding: 1vw;
-    background-color: #ffd6dd;
-    
-}
 
-.header-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.1vw;
-    
-    
-    
-    
-}
-.home-link,
-.ph-link,
-.docs-link,
-.prof-link{
-    color: #2C3E50;
-    font-size: 1.5vw;
-    padding: 0.4vw 0.75vw;
-    &:hover{
-        background-color: #ff858d;
-        border-radius: 20px;
-        padding: 0.4vw 0.75vw;
-
-    }
-}
-
-.header-left{
-    display: flex;
-    justify-content: center;
-    gap: 2vw;
 header {
     background-color: #ffd6dd;
     color: black;
@@ -126,5 +88,4 @@ footer {
     padding: 1em;
     width: 100%;
     box-sizing: border-box;
-}
 }
