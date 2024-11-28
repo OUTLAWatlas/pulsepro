@@ -170,7 +170,11 @@ a{
 .test1img
 {
     border-radius: 50%;
+    width: 15vw;
 }
 .test1rate{
     padding-bottom: -3vh;
 }
+
+
+
