@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #ffd6dd;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#graph {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#details {
+    width: 80%;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px; /* Ensures the form doesn't stretch too wide */
+}
+
+form label {
+    margin: 0.5em 0 0.2em 0;
+    font-weight: bold;
+}
+
+form input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.7em;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: teal;
+}
+
+footer {
+    background-color:black ;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}

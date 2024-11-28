@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECG Patient Graph History</title>
+    <link rel="stylesheet" href="stylegraphhistori.css">
+</head>
+<body>
+    <header>
+        <h1>ECG Patient Graph History</h1>
+    </header>
+            <section id="graph">
+                <!-- Graph will be rendered here -->
+            </section>
+            <section id="details">
+                <div class="profilecontainer">
+                <h2 align="center">Patient Details</h2>
+                <form>
+                    <label for="patient-name">Name:</label>
+                    <input type="text" id="patient-name" name="patient-name" required>
+                    <label for="patient-id">Patient ID:</label>
+                    <input type="text" id="patient-id" name="patient-id" required>
+                    <label for="date-range">Date Range:</label>
+                    From:<input type="date" id="start-date" name="start-date" required>
+                    Till:<input type="date" id="end-date" name="end-date" required>
+                    <button type="submit">Generate Graph</button>
+                </form></div>
+            </section>
+    </main>
+    <footer>
+        <p>&copy;2024 PulsePro</p>
+        <p>About Us</p>
+        <p></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
