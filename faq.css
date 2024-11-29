@@ -5,6 +5,70 @@ body {
     padding: 0;
     background-color: #f9f9f9;
 }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+ color:#333;}
+
+
+a{
+    text-decoration: none;
+}
+.logoimg{
+    height: 3.5vw;
+}
+.name{
+    font-size: 1.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: 900;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35vw;
+    padding: 1vw;
+    background-color: #ffd6dd;
+    
+}
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.1vw;
+    
+    
+    
+    
+}
+.home-link,
+.ph-link,
+.docs-link,
+.prof-link{
+    color: #2C3E50;
+    font-size: 1.5vw;
+    padding: 0.4vw 0.75vw;
+    &:hover{
+        background-color: #ff858d;
+        border-radius: 20px;
+        padding: 0.4vw 0.75vw;
+
+    }    
+.nav-left{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+   
+  
+}
+}
+
 
 .container {
     width: 80%;
