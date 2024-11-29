@@ -1,47 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="profilee.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PulsePro</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./media/favicon-32x32.png" type="image/x-icon">
+    <title>Profile Card</title>
+    
+    
 </head>
+
 <body>
-    <div class="header">
-        <div class="head-left">
-            <div class="logo"><img src="./media/favicon-32x32.png" alt="logo"></div>
-            <div class="name">PulsePRO</div>
+    
+    <nav>
+        <div class="nav-left">
+                <img class="logoimg" src="./media/WhatsApp Image 2024-11-27 at 17.57.34_20b8daef.jpg" alt="logo">
+                <div class="name">PulsePRO</div>
         </div>
-        <div class="head-right">
-            <div class="home"><a href="home.html" class="homelink">Home</a>
+
+        <div class="nav-right">
+            <div class="home"><a href="index.html" class="home-link">Home</a>
             </div>
-            <div class="patient-history"><a href="patient-history.html" class="phlink">Patient History</a></div>
-            <div class="doctors"><a href="doctors.html" class="docslink">Doctors</a></div>
-            <div class="profile"><a href="profile.html" class="proflink"></a></div>
+            <div class="patient-history"><a href="patient-history.html" class="ph-link">Patient History</a></div>
+            <div class="doctors"><a href="doctors.html" class="docs-link">Doctors</a></div>
+            <div class="profile"><a href="profile.html" class="prof-link"><i class="fa-regular fa-circle-user fa-lg"></i></a></div>
+        </div>
+    </nav>
+
+    <div class="profile-card">
+        <div class="profile-header">
+            <img src="https://via.placeholder.com/100" alt="Profile Picture" class="profile-image">
+            <div class="profile-info">
+                <h2>Mrs. Maria Waston</h2>
+                <p>mariawaston2023@gmail.com</p>
+                <a href="edit-profile.html" class="edit-btn">Edit Profile</a>
+            </div>
+        </div>
+        <hr>
+        <div class="profile-details">
+            <div class="detail">
+                <span class="label">Sex:</span>
+                <span class="value">Female</span>
+            </div>
+            <div class="detail">
+                <span class="label">Age:</span>
+                <span class="value">28</span>
+            </div>
+            <div class="detail">
+                <span class="label">Blood:</span>
+                <span class="value">A+</span>
+            </div>
+            <div class="detail">
+                <span class="label">Status:</span>
+                <span class="value">Active</span>
+            </div>
+            <div class="detail">
+                <span class="label">Department:</span>
+                <span class="value">Cardiology</span>
+            </div>
+            <div class="detail">
+                <span class="label">Appointments:</span>
+                <span class="value">36</span>
+            </div>
+            <div class="detail">
+                <span class="label">Bed Number:</span>
+                <span class="value">#18365</span>
+            </div>
+            <div class="detail">
+                <span class="label">Registered Date:</span>
+                <span class="value">20 Jan, 2023</span>
+            </div>
         </div>
     </div>
-    <div class="media">
-        <div class="doctor-patient"></div>
-        <div class="prototype"></div>
-    </div>
-    <div class="features">
-        <div class="live"></div>
-        <div class="graph"></div>
-        <div class="book"></div>
-    </div>
-    <div class="testimonials">
-        <div class="test1"></div>
-        <div class="test2"></div>
-        <div class="test3"></div>
-        <div class="test4"></div>
-    </div>
-    <div class="footer">
-        <div class="aboutus"></div>
-        <div class="faq"></div>
-        <div class="contactus"></div>
-        <div class="copywrite"></div>
-        
-    </div>
+    <footer>
+        <p>&copy;2024 PulsePro Technologies </p>
+</footer>
+    
 </body>
+
 </html>
