@@ -17,7 +17,7 @@ a{
    
 }
 
-.header{
+nav{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@ a{
     
 }
 
-.header-right{
+.nav-right{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@ a{
     }
 }
 
-.header-left{
+.nav-left{
     display: flex;
     justify-content: center;
     gap: 2vw;
@@ -124,17 +124,47 @@ a{
 {
     color: black;
     background-color: white;
-    padding: 0.2vw 0.5vw;
+    padding: 0.2vw 0.6vw;
     border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 0.9em;
+    text-align: center;
+
     
     &:hover{
         background-color: rgb(94, 172, 167) ;
         color: black;
-        padding: 0.2vw 0.5vw;
+        padding: 0.2vw 0.6vw;
+        text-align: center;
+
 
     }
     
 }
+.appointment-h1{
+    
+        color: rgb(255, 255, 255);
+        background-color: #EF6862;
+        padding: 0.5vw 0.7vw;
+        border-radius: 0.2vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        font-size: 0.9em;
+        text-align: center;
+        
+        &:hover{
+            color: #EF6862;
+            background-color: white;
+            padding: 0.3vw 0.5vw;
+            border: solid #EF6862 0.25vw;
+            text-align: center;
+        
+    
+        }
+        
+    }
+
   
 
 .patient-history{
@@ -176,5 +206,35 @@ a{
     padding-bottom: -3vh;
 }
 
+.footer{
+    background-color: rgb(190, 213, 255);
+    height: 5vh;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
 
 
+}
+.aboutus,
+.faq,
+.contactus
+{
+    color: black;
+    padding: 0.5vw;
+    font-weight: 900;
+
+    &:hover{
+        background-color: rgb(112, 154, 216);
+        border-radius: 20px;
+        padding: 0.5vw;
+    }
+}
+
+.copywrite{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1vh;
+}
