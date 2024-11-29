@@ -3,46 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patient History</title>
+    <title>Document</title>
     <link rel="stylesheet" href="patient-history.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
+    <nav>
+        <div class="nav-left">
+                <img class="logoimg" src="./media/WhatsApp Image 2024-11-27 at 17.57.34_20b8daef.jpg" alt="logo">
+                <div class="name">PulsePRO</div>
+        </div>
+
+        <div class="nav-right">
+            <div class="home"><a href="index.html" class="home-link">Home</a>
+            </div>
+            <div class="patient-history"><a href="patient-history.html" class="ph-link">Patient History</a></div>
+            <div class="doctors"><a href="doctors.html" class="docs-link">Doctors</a></div>
+            <div class="profile"><a href="profile.html" class="prof-link"><i class="fa-regular fa-circle-user fa-lg"></i></a></div>
+        </div>
+    </nav>
     <header>
         <h1>Medical History</h1>
     </header>
-    <main>
-        <section class="medical-history-form">
-            <h2><CENTER>Patient Medical History </CENTER></h2>
-            <form>
-                <!-- Medical History Details -->
-                <div class="form-group">
-                    <label for="allergies">Allergies:</label>
-                    <textarea id="allergies" name="allergies" rows="3" placeholder="List any known allergies"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="current-medications">Current Medications:</label>
-                    <textarea id="current-medications" name="current-medications" rows="3" placeholder="List current medications"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="past-conditions">Past Medical Conditions:</label>
-                    <textarea id="past-conditions" name="past-conditions" rows="3" placeholder="List past medical conditions"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="surgical-history">Surgical History:</label>
-                    <textarea id="surgical-history" name="surgical-history" rows="3" placeholder="List any surgeries or procedures"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="family-history">Family Medical History:</label>
-                    <textarea id="family-history" name="family-history" rows="3" placeholder="Describe family medical history"></textarea>
-                </div>
-
-                <!-- Submit Button -->
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 HealthCare System</p>
-    </footer>
+        <main>
+            <section class="medical-history-form">
+                <h2><CENTER>Patient Medical History </CENTER></h2>
+                <form>
+                    <!-- Medical History Details -->
+                    <div class="form-group">
+                        <label for="allergies">Allergies:</label>
+                        <textarea id="allergies" name="allergies" rows="3" placeholder="List any known allergies"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="current-medications">Current Medications:</label>
+                        <textarea id="current-medications" name="current-medications" rows="3" placeholder="List current medications"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="past-conditions">Past Medical Conditions:</label>
+                        <textarea id="past-conditions" name="past-conditions" rows="3" placeholder="List past medical conditions"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="surgical-history">Surgical History:</label>
+                        <textarea id="surgical-history" name="surgical-history" rows="3" placeholder="List any surgeries or procedures"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="family-history">Family Medical History:</label>
+                        <textarea id="family-history" name="family-history" rows="3" placeholder="Describe family medical history"></textarea>
+                    </div>
+    
+                    <!-- Submit Button -->
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; PulsePro</p>
+        </footer>
 </body>
 </html>
