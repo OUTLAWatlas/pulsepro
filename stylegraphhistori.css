@@ -69,7 +69,7 @@ header {
     color: black;
     text-align: center;
     padding: 1em;
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
 }
 
