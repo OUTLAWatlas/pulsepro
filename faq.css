@@ -21,7 +21,7 @@ a{
     height: 3.5vw;
 }
 .name{
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-weight: 900;
    
@@ -137,4 +137,14 @@ h1 {
         font-size: 16px;
         padding: 12px;
     }
+}
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0em;
+    width: 100%;
+    margin-top: 15.5vh;
+    
+    box-sizing:border-box;
 }
