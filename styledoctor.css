@@ -150,6 +150,16 @@ nav{
     background-color: #2980b9;
     transform: scale(1.05);
 }
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    margin-top: 15.5vh;
+    height: 10vh;
+    box-sizing: border-box;
+}
 
 /* Responsive Adjustments */
 @media screen and (max-width: 768px) {
