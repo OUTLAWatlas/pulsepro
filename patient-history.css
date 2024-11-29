@@ -63,7 +63,7 @@ nav{
   
 }
 header {
-    background: #b33248;
+    background: #98cbe1;
     color: #000000;
     text-align: center;
     padding: 15px 10px;
@@ -119,11 +119,12 @@ textarea {
 }
 
 button {
-    background: #ffd6dd;
+    background: #eb8e9e;
     color: #0e0d0d;
     border: none;
     padding: 10px 15px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
