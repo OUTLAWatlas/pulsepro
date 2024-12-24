@@ -16,6 +16,9 @@ a{
 }
 .logoimg{
     height: 3.5vw;
+    position: absolute;
+ top: 0%;
+ left: 0%;
 }
 .name{
     font-size: 1.8em;
@@ -65,12 +68,18 @@ nav{
     justify-content: center;
     gap:2vw;
 }
+.name{
+    width: 40vw;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
 }
-
+.patient-history{
+    width:10vw
+}
 .page-title {
     text-align: center;
     color: #2c3e50;
