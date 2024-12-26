@@ -249,7 +249,7 @@ nav{
         display: flex;
         flex-direction: column;
         gap: 2vh;
-        background-color:#f5cad1;
+       
         width: 103vw;
     }
     .name{ font-size: 4em;
