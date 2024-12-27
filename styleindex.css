@@ -88,7 +88,7 @@ nav{
 .appointment,
 .live-monitering{
     width: 25vw;
-    height: 20vh;
+    height: 25vh;
     border-radius: 30px;
     
     display: flex;
@@ -238,7 +238,7 @@ nav{
     padding: 1vh;
 }
 
-@media screen and (270px <= width <= 600px)
+@media screen and (270px <= width <= 800px)
 {
     html{
         font-size: 12px;
@@ -249,7 +249,7 @@ nav{
         display: flex;
         flex-direction: column;
         gap: 2vh;
-        background-color:#F4C8D1;
+        background-color:#ffc7ee;
         width: 103vw;
     }
     .name{ font-size: 4em;
@@ -268,7 +268,6 @@ nav{
         justify-content: left;
         padding: 3vh;
         gap: 3vw;
-        
         
     }
     .nav-right{
@@ -317,12 +316,14 @@ nav{
     align-items: center;
     gap: 1.3vh;
     margin-top: 7vh;
+    height: max-content;
+    
 }
 .graph,
 .appointment,
 .live-monitering{
     width:80vw;
-    height: 25vh;
+    height:max-content;
     gap: 2vh;
     padding:0vh 0vw 4vh;
    
