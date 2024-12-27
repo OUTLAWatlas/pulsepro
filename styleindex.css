@@ -251,7 +251,7 @@ nav{
         display: flex;
         flex-direction: column;
         gap: 2vh;
-        background-color:#ffc7ee;
+        background-color:#F4C8D1;
         width: 103vw;
     }
     .name{ font-size: 4em;
