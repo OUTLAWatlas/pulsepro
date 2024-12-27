@@ -245,9 +245,7 @@ nav{
         margin-left: auto;
         margin: 0;
     } 
-    body:hover{
-        display: none;
-    }
+   
     
     nav{
         display: flex;
