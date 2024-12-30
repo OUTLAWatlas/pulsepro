@@ -1,14 +1,15 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%;
 }
 a{
     text-decoration: none;
 }
 .logoimg{
-    height: 3.5vw;
+    width: 4vw;
+ 
 }
 .name{
     font-size: 1.8em;
@@ -24,6 +25,7 @@ nav{
     gap: 35vw;
     padding: 1vw;
     background-color:#F4C8D1;
+   
     
 }
 
@@ -32,9 +34,6 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 1.1vw;
-    
-    
-    
     
 }
 .home-link,
@@ -48,7 +47,7 @@ nav{
         background-color: #ff858d;
         border-radius: 20px;
         padding: 0.4vw 0.75vw;
-
+           
     }
 }
 
@@ -73,7 +72,7 @@ nav{
     border-radius: 50px;
 }
 .motto{
-    font-size: 2.5em;
+    font-size: 2.5rem;
     width: 50vw;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -88,31 +87,31 @@ nav{
 .graph,
 .appointment,
 .live-monitering{
-    width: 30vw;
-    height: 30vh;
+    width: 25vw;
+    height: 25vh;
     border-radius: 30px;
-    padding: 1vw;
-    display: flex;
-    justify-content: center;  
-    background-color: #A4D9D6;
-    flex-direction: row;
-    gap: 10vw;
     
-}
-.graph-left,
-.appointment-left,
-.live-monitering-left{
-    width: 0px;
-
-    
-    
-}   
-.graph-right,
-.appointment-right,
-.live-monitering-right{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;  
+    background-color: #A4D9D6;
+    padding: 5vh;
+    gap: 5vh;
+    
+}
+.graph-bottom,
+.appointment-bottom,
+.live-monitering-bottom{
+    display: flex;
+    justify-content: center;
+   
+    
+}   
+.graph-top,
+.appointment-top,
+.live-monitering-top{
+    display: flex;
+   
     gap: 1vw;
     color: #333333;
     font-weight: 400;
@@ -174,7 +173,7 @@ nav{
 .testimonials{
     display: flex;
     flex-direction: row;
-    padding-top: 20vh;
+    padding-top: 10vh;
     padding-bottom: 10vh;
     justify-content: center;
     gap: 2vw;
@@ -239,6 +238,160 @@ nav{
     padding: 1vh;
 }
 
+@media screen and (270px <= width <= 800px)
+{
+    html{
+        font-size: 12px;
+        margin-left: auto;
+        margin: 0;
+    } 
+   
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        background-color:#F4C8D1;
+        width: 103vw;
+    }
+    .name{ font-size: 4em;
+        
+
+    }
+    .motto{
+        font-size: 1.2em;
+    }
+    .logoimg{
+        width: 15vw;
+    }
+    .nav-left{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding: 3vh;
+        gap: 3vw;
+        
+    }
+    .nav-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        gap: 3vw;
+        background-color: #EF6862;
+        width: 100vw;
+        padding: 1vh;
+        
+        
+    }
+
+.home-link,
+.ph-link,
+.docs-link,
+.prof-link{
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 0.4vw 0.75vw;
+   
+}
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7vh;
+    margin-top: 5vh;
 
 
+}
+.docimg{
+    width: 90vw;
+    
+}
+.motto{
+    font-size: 2.5em;
+    width: 75vw;
+    text-align: center;
+    
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3vh;
+    margin-top: 7vh;
+    height: max-content;
+    
+}
+.graph,
+.appointment,
+.live-monitering{
+    width:80vw;
+    height:max-content;
+    gap: 2vh;
+    padding:0vh 0vw 4vh;
+   
+}
+.graph-top,
+.appointment-top,
+.live-monitering-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    color: #202020;
+    padding: 2vh 0vw;
+    
+}
+.graph-h1,
+.appointment-h1,
+.live-monitering-h1{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 2vw 5vw;
+    width: 50vw;
+    border-radius: 5vw;
+  
+}
+.graph-tagline,
+.appointment-tagline,
+.live-monitering-tagline{
+    width: 70vw;
+    font-size: 1.3em;
+    text-align: center;
+    
 
+}
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5vh;
+
+}
+.test1,
+.test2,
+.test3,
+.test4{
+ 
+    width: 70vw;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+   
+
+}
+.test1img
+{
+    width: 25vw;
+}
+.test1name{
+    font-size: 1em;
+    font-weight: 900;
+}
+.test1data{
+    width: 60vw;
+    text-align: center;
+    word-wrap: normal;
+    line-height: 3.4vh;
+}
+
+}
